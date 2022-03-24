@@ -1,0 +1,11 @@
+export type Todo = {
+    userId: number;
+    id: number;
+    title: string;
+    completed: boolean;
+}
+export type Filters = {
+    titleFilter: string,
+    notCompleted: boolean,
+    userIdFilter: string
+}

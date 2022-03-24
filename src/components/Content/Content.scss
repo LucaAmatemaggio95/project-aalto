@@ -1,0 +1,23 @@
+
+.Wrapper {
+
+    max-height: calc(100% - 227px);
+
+    .Content {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 50px;
+        margin-top: 50px;
+    }
+
+    @media (max-width: 767px) {
+        .Content {
+            grid-template-columns: 1fr;
+        }
+
+        .FiltersContainer {
+            margin-bottom: 20px;
+        }
+    }
+
+}

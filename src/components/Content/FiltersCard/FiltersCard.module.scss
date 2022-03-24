@@ -1,0 +1,31 @@
+.ResetFilters {
+    text-transform: none;
+    cursor: pointer;
+}
+
+.FiltersCardDesktop {
+
+    display: block;
+
+    @media (max-width: 767px) {
+        display: none;
+    }
+    
+}
+
+.FiltersCardMobile {
+
+    display: none;
+
+    @media (max-width: 767px) {
+        display: block;
+    }
+
+    .FilterFab {
+        position: fixed;
+        right: 16px;
+        top: 70px;
+        z-index: 2100;
+    }
+
+}

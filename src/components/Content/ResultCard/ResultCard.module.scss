@@ -1,0 +1,21 @@
+.ResultTitle {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 0px 8px;
+}
+
+.ListItem {
+    background-color: #fff;
+    border-bottom: 2px solid #00ccff;
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-bottom: 20px;
+    text-transform: none;
+
+    .Icon {
+        color:#00ccff;
+        margin-right: 20px;
+    }
+
+}
